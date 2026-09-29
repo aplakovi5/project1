@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NovaTech - თანამედროვე ციფრული გადაწყვეტილებების და ინოვაციური ტექნოლოგიების პლატფორმა. აღმოაჩინეთ უსაფრთხო, სწრაფი და მოქნილი სისტემები.">
+  <meta name="keywords" content="Landing Page, ტექნოლოგიები, ინოვაცია, ვებ დეველოპმენტი, ხელოვნური ინტელექტი, NovaTech">
+  <meta name="author" content="NovaTech Digital">
+
+  <!-- Open Graph / Meta Social -->
+  <meta property="og:title" content="NovaTech - მომავლის ტექნოლოგიური პლატფორმა">
+  <meta property="og:description" content="გაზარდეთ თქვენი ბიზნესის ეფექტურობა NovaTech-ის სუპერ-სწრაფი და დაცული ინფრასტრუქტურით.">
+  <meta property="og:type" content="website">
+
+  <title>NovaTech | ინოვაციური ციფრული გადაწყვეტილებები</title>
+
+  <!-- Google Fonts: Inter & Outfit & Noto Sans Georgian -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Ambient Glow Effects -->
+  <div class="glow-orb glow-orb-1" aria-hidden="true"></div>
+  <div class="glow-orb glow-orb-2" aria-hidden="true"></div>
+  <div class="glow-orb glow-orb-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="NovaTech მთავარი გვერდი">
+        <span class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </span>
+        <span class="logo-text">Nova<strong>Tech</strong></span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Menu -->
+      <nav class="nav-navigation" id="mainNavigation" aria-label="მთავარი ნავიგაცია">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#hero" class="nav-link active" data-nav="hero">მთავარი</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-nav="about">ჩვენს შესახებ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#features" class="nav-link" data-nav="features">მახასიათებლები</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-nav="contact">კონტაქტი</a>
+          </li>
+        </ul>
+        <div class="nav-mobile-cta">
+          <a href="#contact" class="btn btn-primary btn-sm">დაგვიკავშირდით</a>
+        </div>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-outline btn-sm desktop-only">დაწყება</a>
+        <button class="nav-toggle" id="navToggle" aria-label="მენიუს გახსნა/დახურვა" aria-expanded="false" aria-controls="mainNavigation">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <!-- 1. HERO SECTION -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            <span class="badge-text">ახალი თაობის პლატფორმა 2.0</span>
+          </div>
+
+          <h1 class="hero-title">
+            ინოვაცია, რომელიც <br>
+            <span class="gradient-text">ქმნის მომავალს</span>
+          </h1>
+
+          <p class="hero-description">
+            NovaTech აერთიანებს მაღალსიჩქარიან ინფრასტრუქტურას, ხელოვნურ ინტელექტსა და უსაფრთხოების თანამედროვე სტანდარტებს თქვენი ციფრული პროდუქტების სწრაფი ზრდისთვის.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#features" class="btn btn-primary btn-lg">
+              <span>გაეცანით შესაძლებლობებს</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-secondary btn-lg">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+              </svg>
+              <span>როგორ მუშაობს</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics / Proof -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">99.99%</span>
+              <span class="stat-label">უწყვეტი მუშაობა</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">10x</span>
+              <span class="stat-label">სწრაფი წარმადობა</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">50k+</span>
+              <span class="stat-label">კმაყოფილი მომხმარებელი</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Mockup -->
+        <div class="hero-visual">
+          <div class="glass-card mockup-card">
+            <div class="mockup-header">
+              <div class="mockup-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="mockup-title">novatech-terminal://status</span>
+              <span class="status-indicator live">LIVE</span>
+            </div>
+
+            <div class="mockup-body">
+              <div class="metric-row">
+                <div class="metric-box">
+                  <span class="metric-label">სისტემის დატვირთვა</span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-fill" style="width: 24%;"></div>
+                  </div>
+                  <span class="metric-val">24% ოპტიმალური</span>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-label">პასუხის დრო</span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-fill cyan" style="width: 15%;"></div>
+                  </div>
+                  <span class="metric-val">12ms ელვისებური</span>
+                </div>
+              </div>
+
+              <div class="code-preview">
+                <p><span class="c-purple">const</span> <span class="c-blue">platform</span> = <span class="c-purple">new</span> <span class="c-yellow">NovaTechEngine</span>({</p>
+                <p class="indent-1"><span class="c-cyan">aiAcceleration</span>: <span class="c-green">true</span>,</p>
+                <p class="indent-1"><span class="c-cyan">zeroTrustSecurity</span>: <span class="c-green">true</span>,</p>
+                <p class="indent-1"><span class="c-cyan">globalEdgeLatency</span>: <span class="c-orange">"&lt;15ms"</span></p>
+                <p>});</p>
+                <p><span class="c-purple">await</span> platform.<span class="c-blue">deploy</span>(); <span class="c-comment">// 🚀 წარმატებით გაეშვა</span></p>
+              </div>
+
+              <!-- Floating Glass Pills -->
+              <div class="floating-badge badge-top-right">
+                <span class="badge-icon">⚡</span>
+                <div>
+                  <strong>Ultra Speed</strong>
+                  <small>+420% Boost</small>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom-left">
+                <span class="badge-icon">🛡️</span>
+                <div>
+                  <strong>End-to-End Encrypted</strong>
+                  <small>256-bit AES</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">ჩვენს შესახებ</span>
+          <h2 class="section-title">ვინ ვართ ჩვენ და <span class="gradient-text">რას ვაკეთებთ</span></h2>
+          <p class="section-subtitle">
+            ჩვენ ვქმნით ტექნოლოგიურ ხიდს იდეასა და მის უნაკლო განხორციელებას შორის.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-card glass-card">
+            <div class="about-visual-content">
+              <div class="about-icon-mesh">
+                <div class="mesh-node primary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                  </svg>
+                </div>
+                <div class="mesh-node secondary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                  </svg>
+                </div>
+                <div class="mesh-node tertiary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="about-quote-box">
+                <p class="quote-text">"ჩვენი მიზანია ტექნოლოგია იყოს არა რთული ბარიერი, არამედ ძლიერი მამოძრავებელი ძალა ყველა ინოვატორისთვის."</p>
+                <span class="quote-author">— NovaTech-ის დამფუძნებელი გუნდი</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text-content">
+            <h3 class="about-heading">
+              ვქმნით პროდუქტებს, რომლებიც თქვენს ბიზნესს უპირატესობას ანიჭებს
+            </h3>
+            <p class="about-paragraph">
+              NovaTech არის ინჟინრების, დიზაინერებისა და ტექნოლოგიური ენთუზიასტების გაერთიანება. ჩვენ ვეხმარებით სტარტაპებსა და მსხვილ კომპანიებს გადალახონ თანამედროვე ციფრული გამოწვევები.
+            </p>
+
+            <ul class="about-checklist">
+              <li class="check-item">
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>ადაპტირებული და მოქნილი ეკოსისტემა</strong>
+                  <p>ნებისმიერ ეკრანსა და მოწყობილობაზე უნაკლოდ მორგებული ინტერფეისები.</p>
+                </div>
+              </li>
+              <li class="check-item">
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>სუფთა, სემანტიკური და მასშტაბირებადი კოდი</strong>
+                  <p>W3C სტანდარტების დაცვა, SEO ოპტიმიზაცია და უმაღლესი სისწრაფე.</p>
+                </div>
+              </li>
+              <li class="check-item">
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>უწყვეტი ინტეგრაცია & 24/7 მონიტორინგი</strong>
+                  <p>თქვენი სერვისები ყოველთვის ხელმისაწვდომი და დაცულია.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="about-action">
+              <a href="#features" class="btn btn-outline">იხილეთ მახასიათებლები</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FEATURES SECTION (3 CARDS) -->
+    <section class="section features-section" id="features">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">შესაძლებლობები</span>
+          <h2 class="section-title">რატომ ირჩევენ <span class="gradient-text">NovaTech-ს</span></h2>
+          <p class="section-subtitle">
+            სამი ძირითადი საყრდენი, რომელიც უზრუნველყოფს თქვენი პროექტის უპირობო წარმატებას.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Card 1 -->
+          <article class="feature-card glass-card">
+            <div class="card-glow" aria-hidden="true"></div>
+            <div class="card-icon icon-speed">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <div class="card-number">01</div>
+            <h3 class="card-title">ულტრა-სწრაფი წარმადობა</h3>
+            <p class="card-description">
+              ოპტიმიზებული არქიტექტურა და გლობალური CDN ქსელი, რომელიც უზრუნველყოფს გვერდების მყისიერ ჩატვირთვას მილიწამებში.
+            </p>
+            <ul class="card-perks">
+              <li><span class="bullet"></span> Core Web Vitals 100/100 ქულა</li>
+              <li><span class="bullet"></span> მონაცემთა მყისიერი ქეშირება</li>
+              <li><span class="bullet"></span> მინიმალური სერვერული შეყოვნება</li>
+            </ul>
+            <div class="card-footer">
+              <a href="#contact" class="card-link">
+                <span>გაიგეთ მეტი</span>
+                <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="feature-card glass-card">
+            <div class="card-glow" aria-hidden="true"></div>
+            <div class="card-icon icon-security">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="M9 12l2 2 4-4"></path>
+              </svg>
+            </div>
+            <div class="card-number">02</div>
+            <h3 class="card-title">მაღალი დონის უსაფრთხოება</h3>
+            <p class="card-description">
+              მრავალდონიანი დაცვა, Zero-Trust არქიტექტურა და 256-ბიტიანი ენკრიფცია, რაც თქვენს მონაცემებს საიმედოდ იცავს.
+            </p>
+            <ul class="card-perks">
+              <li><span class="bullet"></span> End-to-End დაშიფვრა</li>
+              <li><span class="bullet"></span> ავტომატური DDoS პრევენცია</li>
+              <li><span class="bullet"></span> ISO/GDPR საერთაშორისო სტანდარტები</li>
+            </ul>
+            <div class="card-footer">
+              <a href="#contact" class="card-link">
+                <span>გაიგეთ მეტი</span>
+                <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="feature-card glass-card">
+            <div class="card-glow" aria-hidden="true"></div>
+            <div class="card-icon icon-ai">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <div class="card-number">03</div>
+            <h3 class="card-title">ჭკვიანი AI ანალიტიკა</h3>
+            <p class="card-description">
+              ხელოვნურ ინტელექტზე დაფუძნებული პროგნოზირებადი მოდელები და რეალურ დროში მონაცემთა ღრმა ანალიზი.
+            </p>
+            <ul class="card-perks">
+              <li><span class="bullet"></span> ავტომატური ინსაითები & რეპორტინგი</li>
+              <li><span class="bullet"></span> ქცევითი ანალიზის ალგორითმი</li>
+              <li><span class="bullet"></span> მარტივი RESTful API ინტეგრაცია</li>
+            </ul>
+            <div class="card-footer">
+              <a href="#contact" class="card-link">
+                <span>გაიგეთ მეტი</span>
+                <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">კონტაქტი</span>
+          <h2 class="section-title">დაგვიკავშირდით და <span class="gradient-text">დავიწყოთ თანამშრომლობა</span></h2>
+          <p class="section-subtitle">
+            გაქვთ შეკითხვები ან გსურთ ახალი პროექტის დაწყება? ჩვენი გუნდი მზადაა დასახმარებლად.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Details -->
+          <div class="contact-info glass-card">
+            <h3 class="info-title">საკონტაქტო ინფორმაცია</h3>
+            <p class="info-desc">
+              შეავსეთ ფორმა ან დაგვიკავშირდით პირდაპირ ქვემოთ მითითებულ არხებზე. ჩვენ გიპასუხებთ 24 საათის განმავლობაში.
+            </p>
+
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="info-text">
+                  <span class="info-label">ელ-ფოსტა</span>
+                  <a href="mailto:info@novatech.ge" class="info-value">info@novatech.ge</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="info-text">
+                  <span class="info-label">ტელეფონი</span>
+                  <a href="tel:+995322000000" class="info-value">+995 (32) 200-00-00</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-text">
+                  <span class="info-label">მისამართი</span>
+                  <span class="info-value">ჭავჭავაძის გამზ. 74, თბილისი, საქართველო</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links-wrap">
+              <span class="social-label">გამოგვყევით:</span>
+              <div class="social-links">
+                <a href="#contact" class="social-btn" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="#contact" class="social-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="#contact" class="social-btn" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Interactive Form -->
+          <div class="contact-form-wrap glass-card">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="userName" class="form-label">სრული სახელი *</label>
+                  <div class="input-wrap">
+                    <input type="text" id="userName" name="name" class="form-input" placeholder="გიორგი ბერიძე" required autocomplete="name">
+                    <span class="input-icon">👤</span>
+                  </div>
+                  <span class="form-error" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">ელ-ფოსტა *</label>
+                  <div class="input-wrap">
+                    <input type="email" id="userEmail" name="email" class="form-input" placeholder="giorgi@example.ge" required autocomplete="email">
+                    <span class="input-icon">✉️</span>
+                  </div>
+                  <span class="form-error" id="emailError"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="userSubject" class="form-label">თემა / ინტერესის სფერო *</label>
+                <div class="input-wrap">
+                  <select id="userSubject" name="subject" class="form-select" required>
+                    <option value="" disabled selected>აირჩიეთ მიმართულება</option>
+                    <option value="cloud">მაღალსიჩქარიანი Cloud ინფრასტრუქტურა</option>
+                    <option value="security">კიბერუსაფრთხოების აუდიტი</option>
+                    <option value="ai">AI ანალიტიკა და ინტეგრაცია</option>
+                    <option value="custom">სხვა ინდივიდუალური პროექტი</option>
+                  </select>
+                </div>
+                <span class="form-error" id="subjectError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage" class="form-label">შეტყობინება *</label>
+                <div class="input-wrap">
+                  <textarea id="userMessage" name="message" class="form-textarea" rows="4" placeholder="მოგვიყევით თქვენი პროექტის ან მოთხოვნის შესახებ..." required></textarea>
+                </div>
+                <span class="form-error" id="messageError"></span>
+              </div>
+
+              <div class="form-agreement">
+                <label class="checkbox-container">
+                  <input type="checkbox" id="userConsent" required>
+                  <span class="checkmark"></span>
+                  <span class="checkbox-text">ვეთანხმები კონფიდენციალურობის პოლიტიკასა და მონაცემთა დამუშავებას</span>
+                </label>
+                <span class="form-error" id="consentError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                <span class="btn-text">შეტყობინების გაგზავნა</span>
+                <span class="btn-loader" aria-hidden="true"></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo">
+            <span class="logo-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </span>
+            <span class="logo-text">Nova<strong>Tech</strong></span>
+          </a>
+          <p class="footer-tagline">მომავლის ტექნოლოგიური ეკოსისტემა, შექმნილი თქვენი წინსვლისთვის.</p>
+        </div>
+
+        <div class="footer-nav">
+          <div class="footer-nav-col">
+            <h4 class="footer-heading">ნავიგაცია</h4>
+            <ul>
+              <li><a href="#hero">მთავარი</a></li>
+              <li><a href="#about">ჩვენს შესახებ</a></li>
+              <li><a href="#features">მახასიათებლები</a></li>
+              <li><a href="#contact">კონტაქტი</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-col">
+            <h4 class="footer-heading">სერვისები</h4>
+            <ul>
+              <li><a href="#features">Cloud სისტემები</a></li>
+              <li><a href="#features">Zero-Trust დაცვა</a></li>
+              <li><a href="#features">AI ავტომატიზაცია</a></li>
+              <li><a href="#contact">კონსულტაცია</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 NovaTech Inc. ყველა უფლება დაცულია.</p>
+        <div class="footer-bottom-links">
+          <a href="#privacy">კონფიდენციალურობა</a>
+          <a href="#terms">წესები და პირობები</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Message -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="assertive">
+    <div class="toast-icon">✓</div>
+    <div class="toast-content">
+      <h4 class="toast-title" id="toastTitle">შეტყობინება გაიგზავნა!</h4>
+      <p class="toast-message" id="toastMessage">მადლობა, ჩვენი გუნდი უახლოეს დროში დაგიკავშირდებათ.</p>
+    </div>
+    <button class="toast-close" id="toastClose" aria-label="შეტყობინების დახურვა">&times;</button>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="გვერდის დასაწყისში დაბრუნება">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
